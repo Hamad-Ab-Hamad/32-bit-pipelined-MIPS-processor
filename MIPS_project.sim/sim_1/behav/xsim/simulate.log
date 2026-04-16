@@ -1,0 +1,7 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ERROR: Index 219222489 out of bound 0 to 15
+Time: 4600 ns  Iteration: 1  Process: /tb_CPU/uut/Stage_MEM/DataMem/line__48
+  File: /home/habdelra/MIPS_project/MIPS_project.srcs/sources_1/new/DataMemory.vhd
+
+HDL Line: /home/habdelra/MIPS_project/MIPS_project.srcs/sources_1/new/DataMemory.vhd:59

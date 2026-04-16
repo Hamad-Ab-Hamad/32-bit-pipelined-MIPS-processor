@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../project_2/project_2.srcs/sources_1/new/Four_bit_RCA.vhd" \
+"../../../../MIPS_project.srcs/sources_1/new/IF_Stage.vhd" \
+"../../../../MIPS_project.srcs/sources_1/new/InstructionMemory.vhd" \
+"../../../../MIPS_project.srcs/sources_1/new/MUX.vhd" \
+"../../../../../project_2/project_2.srcs/sources_1/new/One_bit_RCA.vhd" \
+"../../../../MIPS_project.srcs/sources_1/new/PC.vhd" \
+"../../../../../project_2/project_2.srcs/sources_1/new/Thirtytwo_bit_RCA.vhd" \
+"../../../../MIPS_project.srcs/sim_1/new/tb_IFstage.vhd" \
+
+# Do not sort compile order
+nosort
