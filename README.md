@@ -80,49 +80,6 @@ All undefined signals default to 0 via a catch-all statement.
  
 ---
  
-## Repository Structure
- 
-```
-├── IF_Stage/
-│   ├── PCMux.vhd
-│   ├── PC.vhd
-│   ├── InstructionMemory.vhd
-│   ├── Adder.vhd
-│   └── IF_Stage.vhd
-├── ID_Stage/
-│   ├── ControlUnit.vhd
-│   ├── RegisterFile.vhd
-│   ├── SignExtend.vhd
-│   └── ID_Stage.vhd
-├── EX_Stage/
-│   ├── ALU.vhd
-│   ├── ALUControl.vhd
-│   ├── MUX32bit.vhd
-│   ├── MUX5bit.vhd
-│   ├── ShiftLeft2.vhd
-│   └── EX_Stage.vhd
-├── MEM_Stage/
-│   ├── DataMemory.vhd
-│   └── MEM_Stage.vhd
-├── WB_Stage/
-│   └── WB_Stage.vhd
-├── Pipeline_Registers/
-│   ├── IF_ID_Reg.vhd
-│   ├── ID_EX_Reg.vhd
-│   ├── EX_MEM_Reg.vhd
-│   └── MEM_WB_Reg.vhd
-├── CPU.vhd
-└── Testbenches/
-    ├── tb_IF_Stage.vhd
-    ├── tb_ID_Stage.vhd
-    ├── tb_EX_Stage.vhd
-    ├── tb_MEM_Stage.vhd
-    ├── tb_WB_Stage.vhd
-    └── tb_CPU.vhd
-```
- 
----
- 
 ## Simulation Results
  
 Each stage and each subcomponent has a dedicated testbench, verified in Vivado behavioral simulation.
